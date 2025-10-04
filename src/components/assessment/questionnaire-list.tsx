@@ -418,8 +418,18 @@ export function QuestionnaireList({
                           return (
                             <div 
                               key={option.value}
+                              onClick={() => handleAnswer(question.id, option.value)}
+                              onKeyDown={(e) => {
+                                if (e.key === 'Enter' || e.key === ' ') {
+                                  e.preventDefault();
+                                  handleAnswer(question.id, option.value);
+                                }
+                              }}
+                              role="radio"
+                              aria-checked={isSelected}
+                              tabIndex={0}
                               className={`
-                                flex items-center p-2 sm:p-3 rounded-lg border-2 transition-all duration-200 cursor-pointer hover:bg-white/50
+                                flex items-center p-2 sm:p-3 rounded-lg border-2 transition-all duration-200 cursor-pointer hover:bg-white/50 select-none active:scale-[0.98]
                                 ${isSelected 
                                   ? 'bg-white border-psychology-primary shadow-sm' 
                                   : 'bg-white/30 border-gray-300 hover:border-gray-400'
