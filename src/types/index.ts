@@ -146,7 +146,7 @@ export const SRI_LEVELS = {
   'low': { min: 20, max: 40, label: '偏低', color: 'green-600' },
   'moderate': { min: 40, max: 60, label: '中等', color: 'yellow-600' },
   'high': { min: 60, max: 80, label: '偏高', color: 'psychology-warning' },
-  'very-high': { min: 80, max: 100, label: '很高', color: 'psychology-danger' }
+  'very-high': { min: 80, max: 101, label: '很高', color: 'psychology-danger' }
 } as const;
 
 // 李克特量表选项
