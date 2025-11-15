@@ -335,3 +335,7 @@ npm run build
 ---
 
 **性压抑指数计算器** - 让科学研究服务于个人成长和性健康发展
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=banlanzs/Sexual-Repression-Calculator&type=date&legend=top-left)](https://www.star-history.com/#banlanzs/Sexual-Repression-Calculator&type=date&legend=top-left)
