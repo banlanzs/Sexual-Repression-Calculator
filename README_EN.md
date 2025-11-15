@@ -336,3 +336,7 @@ If you find this project helpful, please give us a ⭐️
 ---
 
 **Sexual Repression Index Calculator** - Let scientific research serve personal growth and sexual health development
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=banlanzs/Sexual-Repression-Calculator&type=date&legend=top-left)](https://www.star-history.com/#banlanzs/Sexual-Repression-Calculator&type=date&legend=top-left)
